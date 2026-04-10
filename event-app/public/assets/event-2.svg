@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1">
+      <stop offset="0" stop-color="#34d399"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#f0fdf4"/>
+  <g transform="translate(40,40)">
+    <rect width="720" height="370" rx="18" fill="url(#g2)" opacity="0.95"/>
+    <text x="40" y="80" font-size="40" fill="white" font-family="Inter, sans-serif">Frontend Conf</text>
+    <text x="40" y="130" font-size="18" fill="rgba(255,255,255,0.95)" font-family="Inter, sans-serif">Performance, accessibility, modern tooling.</text>
+  </g>
+</svg>

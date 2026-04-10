@@ -22,6 +22,8 @@
 import { ref } from 'vue'
 import { useRegistration } from '../composables/useRegistration'
 
+const props = defineProps({ eventId: { type: [String, Number], default: null } })
+
 const name = ref('')
 const email = ref('')
 const errors = ref({})
@@ -54,7 +56,8 @@ async function handleSubmit() {
 
   const result = await register({
     name: name.value,
-    email: email.value
+    email: email.value,
+    eventId: props.eventId
   })
 
   if (!result) {
